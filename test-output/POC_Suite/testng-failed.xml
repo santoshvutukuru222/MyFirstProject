@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [POC_Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="searchValue" value="Colleges"/>
+  <test name="POC_Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="searchValue" value="Colleges"/>
+    <classes>
+      <class name="com.org.TestScripts.LangingPageVerification">
+        <methods>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="langingPageVerification" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.org.TestScripts.LangingPageVerification -->
+    </classes>
+  </test> <!-- POC_Test(failed) -->
+</suite> <!-- Failed suite [POC_Suite] -->
